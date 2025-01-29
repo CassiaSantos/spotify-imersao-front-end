@@ -13,35 +13,75 @@
 
         <!-- CDN do Font awesome: -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     </head>
 
 
     <body>
-            <div class="sidebar">
-                <nav class="sidebar__navigation">
-                    <!-- Logo:  -->
-                    <div class="logo">
-                        <a href="">
-                            <img src="./assets/img/icons/logo-spotify.png" alt="Logo do spotify">
-                        </a>
-                    </div>
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+                
+            <!-- NAVEGAÇÃO -->
+            <nav class="sidebar__navigation">                
+                <!-- Logo:  -->
+                <div class="logo">
+                    <a href="">
+                        <img src="./assets/img/icons/logo-spotify.png" alt="Logo do spotify">
+                    </a>
+                </div>
 
-                    <!-- Menu: -->
-                    <ul>
-                        <li>
-                            <a href="">
-                                <span class="fa-solid fa-house"></span>
-                                <span>Início</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span class="fa-solid fa-magnifying-glass"></span>
-                                <span>Pesquisar</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                <!-- Menu: -->
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa-solid fa-house"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa-solid fa-magnifying-glass"></span>
+                            <span>Pesquisar</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- BIBLITECA -->
+            <div class="library">
+                <div class="library__content">
+                    <button class="library__button">
+                        <span class="fa-solid fa-book"></span>
+                        <span>Sua Biblioteca</span>
+                    </button>
+                    <span class="fa-solid fa-plus"></span>
+                </div>
+            
+                <!-- Criar playlist -->
+                <section class="section-playlist">
+                    <div class="section-playlist__content">
+                        <span class="text title">Crie sua Primeira Playlist</span>
+                        <span class="text subtitle">É fácil, vamos te ajudar!</span>
+                        <button class="section-playlist__button">
+                            <span>Criar playlist</span>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Cookies -->
+                <div class="cookies">
+                    <a href="">Cookies</a>
+                </div>
+
+                <!-- Languages -->
+                <div class="languages">
+                    <button class="languages__button">
+                        <span class="fa-solid fa-globe"></span>
+                        <span>Português do Brasil</span>
+                    </button>
+                </div>
             </div>
+        </div>            
     </body>
 </html>
